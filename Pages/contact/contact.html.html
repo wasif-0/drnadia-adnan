@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Dr.Nadia Adnan</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="../../index.html" class="nav__logo"><img class="nav_img" src="../../assets/img/Logo.png"
+                        alt="Dr.Nadia Adnan"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../../index.html" class="nav__link ">Home</a></li>
+                    <li class="nav__item"><a href="../../Pages/about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="../../Pages/experienc.html" class="nav__link">EXPERIENCE</a></li>
+                    <div class="dropdown removemobile">
+                        <li class="nav__item "><a href="# " class="nav__link ">EDUCATION</a>
+                            <div class="dropdown-content">
+                                <p><a href="../../Pages/Education/EDUCATION.html">EDUCATION</a></p>
+                                <p><a href="../../Pages/Education/DIPLOMA.html">CERTIFICATE</a></p>
+                                <p><a href="../../Pages/Education/RESEARCH.html">RESEARCH</a></p>
+                                <p><a href="../../Pages/Education/SCHOLARSHIP.html">SCHOLARSHIP</a></p>
+                            </div>
+                        </li>
+                    </div>
+                    <li class="nav__item none"><a href="../../Pages/Education/EDUCATION.html"
+                            class="nav__link ">EDUCATION</a></li>
+                    <li class="nav__item none"><a href="../../Pages/Education/DIPLOMA.html"
+                            class="nav__link">CERTIFICATE</a></li>
+                    <li class="nav__item none"><a href="../../Pages/Education/RESEARCH.html"
+                            class="nav__link ">RESEARCH</a></li>
+                    <li class="nav__item none"><a href="../../Pages/Education/SCHOLARSHIP.html"
+                            class="nav__link ">SCHOLARSHIP</a></li>
+                    <div class="dropdown removemobile">
+                        <li class="nav__item "><a href="#" class="nav__link ">GALLERY</a>
+                            <div class="dropdown-content">
+                                <p><a href="../../Pages/Gallery/gallery.html">GALLERY</a></p>
+                                <p><a href="../../Pages/Gallery/certificate.html">CERTIFICATE</a></p>
+                            </div>
+                        </li>
+                    </div>
+                    <li class="nav__item none"><a href="../../Pages/Gallery/gallery.html" class="nav__link ">GALLERY</a>
+                    </li>
+                    <li class="nav__item none"><a href="../../Pages/Gallery/certificate.html"
+                            class="nav__link ">CERTIFICATE</a></li>
+                    <li class="nav__item"><a href="../../Pages/blog.html" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="../../Pages/contact/contact.html.html" class="nav__link active-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <!--===== NAAAV Bar =====-->
+    <div class="naaav__menu" id="naaav-menu">
+        <ul class="naaav__list">
+            <li class="naaav__item">
+                <a href="../../index.html" class="naaav__link">
+                    <i class="fa-solid fa-house"></i>
+                    <!-- <span class="naaav__name">Home</span> -->
+                </a>
+            </li>
+
+            <li class="naaav__item">
+                <a href="../../Pages/about.html" class="naaav__link">
+                    <i class="fa-solid fa-user"></i>
+                    <!-- <span class="naaav__name">About</span> -->
+                </a>
+            </li>
+
+            <li class="naaav__item">
+                <a href="../../Pages/experienc.html" class="naaav__link">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <!-- <span class="naaav__name">Skills</span> -->
+                </a>
+            </li>
+
+            <li class="naaav__item">
+                <a href="../../Pages/Education/EDUCATION.html" class="naaav__link active-link">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <!-- <span class="naaav__name">Portfolio</span> -->
+                </a>
+            </li>
+
+            <li class="naaav__item">
+                <a href="https://wa.me/qr/ERFFXBFKIPUGP1" target="_blank" class="naaav__link">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                    <!-- <span class="naaav__name">Contactme</span> -->
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ff53efd7-c437-4631-80f6-0faa5fdd5913">
+                <div class="contact_main">
+                    <!-- <input type="text" placeholder="Name" class="contact__input required"> -->
+                    <input type="mail" placeholder="Email" name="Email" class="contact__input" required>
+                    <input type="number" placeholder="Number" name="Number" class="contact__input" required>
+                    <input type="text" placeholder="Subject" name="Subject" class="contact__input" required>
+                    <input type="text" placeholder="Designation" name="Designation" required class="contact__input">
+                </div>
+                <textarea id="" cols="0" rows="10"  name="Description" class="contact__input" required></textarea>
+                <input type="submit" value="Send Message" class="contact__button button"><br>
+            </form>
+        </div>
+    </section>
+
+
+    </section>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="../../assets/js/main.js"></script>
+</body>
+
+</html>
